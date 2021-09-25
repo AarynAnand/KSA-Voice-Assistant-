@@ -1,0 +1,19 @@
+***
+LIBRARIES:
+speech_recognition as sr
+wikipedia
+os
+sys
+pyjokes
+PyPDF2
+pyttsx3
+datetime
+webbrowser
+smtplib
+from IPython.display import Audio
+from tkinter import *
+import tkinter
+
+
+can be installed using pip or apt according to the specifics
+***
