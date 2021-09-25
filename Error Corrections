@@ -15,6 +15,9 @@ Some devices may show that Audio may not be found or MACs may show error regardi
   os.system('Xvfb :1 -screen 0 1600x1200x16  &')    # create virtual display with size 1600x1200 and 16 bit color. Color can be changed to 24 or 8
   os.environ['DISPLAY']=':1.0'    # tell X clients to use our virtual DISPLAY :1.0.
 
+4) Email functionality:
+  You need to allow third party access to your google account.
+  
 If any additional runnning errors:
 Contact me at:
  +91 7389909890
