@@ -2,6 +2,7 @@
 Some devices may show that Audio may not be found or MACs may show error regarding pyaudio
 
 1) For that please run this following code line:
+  !pip install pyaudio
   !apt install libasound2-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg
 
 2) Run the following code if Tkinter doesn't work:  
