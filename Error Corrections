@@ -1,0 +1,21 @@
+***
+Some devices may show that Audio may not be found or MACs may show error regarding pyaudio
+
+1) For that please run this following code line:
+  !apt install libasound2-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg
+
+2) Run the following code if Tkinter doesn't work:  
+  !apt install ghostscript python3-tk
+
+3) Run the following for google colab or if some programs show that there is no environment for the gui:
+  ### CREATE VIRTUAL DISPLAY ###
+  !apt-get install -y xvfb # Install X Virtual Frame Buffer
+  import os
+  os.system('Xvfb :1 -screen 0 1600x1200x16  &')    # create virtual display with size 1600x1200 and 16 bit color. Color can be changed to 24 or 8
+  os.environ['DISPLAY']=':1.0'    # tell X clients to use our virtual DISPLAY :1.0.
+
+If any additional runnning errors:
+Contact me at:
+ +91 7389909890
+ aarynanand2006@gmail.com
+***
